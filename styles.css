@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  /* border: 1px solid black; */
+}
+
+body {
+  background-color: yellow;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.content-title {
+  text-align: center;
+}
+
+.inputs {
+  text-align: center;
+  margin: 1rem;
+}
+
+button {
+  padding: 0.5rem;
+  background-color: white;
+  color: black;
+}
+
+button:hover {
+  background-color: red;
+}
+
+#grid {
+  width: 485px;
+  height: 485px;
+  margin: 0 auto;
+  display: grid;
+  outline: solid black;
+  background-color: white;
+}
+
+#grid div {
+  outline: 0.01px solid black;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  color: yellow;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.social {
+  text-decoration: none;
+}
+
+.fab {
+  color: yellow;
+}
+
+@media (max-width: 500px) {
+  .content-title {
+    font-size: smaller;
+  }
+
+  #grid {
+    width: 185px;
+    height: 185px;
+  }
+
+  footer {
+    font-size: 0.5rem;
+    height: 2.5rem;
+  }
+}
